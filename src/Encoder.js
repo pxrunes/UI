@@ -2,13 +2,13 @@
 // Code ported from https://www.npmjs.com/package/gpt-3-encoder?activeTab=readme 
 // To be able to be run without a server
  async function readVocabFile() {
-    const response = await fetch("/vocab.bpe");
+    const response = await fetch("./vocab.bpe");
     const text = await response.text();
     return text;
   }
 
   async function readEncoder() {
-    const response = await fetch("/encoder.json");
+    const response = await fetch("./encoder.json");
     const text = await response.text();
     return text;
   }
