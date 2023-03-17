@@ -2,7 +2,6 @@
   "name": "patriks-chatgpt-implementation",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://pxrunes.github.io/UI/",
   "type": "module",
   "scripts": {
     "dev": "vite",
